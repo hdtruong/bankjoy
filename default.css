@@ -1,27 +1,31 @@
-div {
-  float:right;
-}
-#one{
+
+#button{
+  text-align: center;
   height: 50px;
-  width: auto;
+  width: 5%;
   border: 2px solid black;
   border-radius: 5px;
-  margin: 500px 1000px 50px 50px
+
+
+
 
 }
-.contact{
-  height:400px;
-
+#contact{
+  text-align: right;
 }
 
-#name{
-  margin: 300px 100px 50px 500px;
+
+#logo{
   text-align:center;
-  font-size: 100px;
+  background-color: orange;
+  margin-top: 5%;
+
 }
 
-.line1{
-  margin: 300px 1200px 50px 300px;
+#line1{
+  background-color: green;
   text-align:center;
   font-style: italic;
+  margin-top:5%;
+  margin-bottom: 2%;
 }
