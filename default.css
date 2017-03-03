@@ -1,17 +1,21 @@
-body{
-  background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg")
-}
-
-body{
+body {
+  margin: 0;
   background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg")
 }
 
 #button {
+  width: 8em;
+  margin: auto;
   text-align: center;
-  height: 50px;
-  width: 5%;
-  border: 2px solid black;
-  border-radius: 5px;
+  padding-top: 12px;
+  padding-right: 35px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: #5170DD;
 }
 
 #contact {
@@ -21,18 +25,28 @@ body{
 #logo {
   text-align: center;
   margin-top: 2%;
-  font-size: 190px;
+  font-size: 80px;
 }
 
-#right{
+#middle {
   position: relative;
-  z-index: -1;
+  z-index: 1
+}
+
+.purple-box {
+  background-color: rgba(61,70,100,0.86);
+}
+
+.phones {
+  text-align: center;
+  width: 90%;
+  margin-top: 50px;
 }
 
 .phone {
   text-align: center;
   display: inline-block;
-  width: 15%
+  width: 20%
 }
 
 h1 {
@@ -45,11 +59,23 @@ h1 {
   color: white;
 }
 
-a{
+h4{
+  text-align: center;
+  margin-bottom: 3%;
+  font-family:  'Source Sans Pro', sans-serif;
+  color: #bfc2c9;
+}
+
+a {
   color: white;
   font-weight: bold;
 }
 
-i{
+i {
+  color: white;
+}
+
+p{
+  font-family:  'Source Sans Pro', sans-serif;
   color: white;
 }
